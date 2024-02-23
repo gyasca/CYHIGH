@@ -1,0 +1,192 @@
+body {
+    font-family: Montserrat;
+}
+
+
+.pagewrapper h1 {
+    margin: 100px;
+    font-size: 4em;
+}
+
+.formcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    display: block;
+    align-items: center;
+    background-color: rgba(231, 223, 184, 0.8);
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.formcontainer div{
+    margin: 50px;
+}
+
+.nameclass:hover, .emailclass:hover, .countryclass:hover, .messageclass:hover, .tableclass:hover, .buttonclass:hover{
+    background-color: rgb(7, 124, 17);
+    color: white;
+    
+}
+
+.nameclass:hover, .emailclass:hover, .countryclass:hover, .messageclass:hover, .tableclass:hover, .buttonclass:hover{
+    cursor: pointer;
+}
+
+.nameclass:focus, .emailclass:focus, .countryclass:focus, .messageclass:focus, .tableclass:focus, .buttonclass:focus{
+    cursor: text;
+}
+
+::placeholder{
+    color: black;
+}
+
+::placeholder:hover{
+    color: white;
+}
+
+:focus::placeholder{
+    color: transparent;
+}
+
+:focus{
+    outline: none;
+}
+
+
+.nameclass, .emailclass, .countryclass, .messageclass, .tableclass, .buttonclass{
+    background-color: rgb(142, 199, 105);
+    color: rgb(0, 0, 0);
+    transition-property: background-color;
+    transition-duration: 230ms;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nameclass, .emailclass{
+    padding: 20px;
+    width: 700px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    border-style: none;
+    font-family: Montserrat;
+}
+
+.countryclass{
+    padding: 20px;
+    width: 740px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    border-style: none;
+    font-family: Montserrat;
+}
+
+.countryclass:active{
+    transform: scale(0.98);
+}
+
+.messageclass{
+    padding: 20px;
+    width: 700px;
+    height: 200px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    border-style: none;
+    font-family: Montserrat;
+}
+
+caption{
+    font-size: 1.6em;
+    margin-bottom: 30px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(60, 255, 0, 0.521);
+    border-radius: 10px;
+    padding: 20px 31px 20px 31px;
+    margin-top: 20px;
+    width: 60%;
+    position: relative;
+}
+
+td {
+    padding:20px;
+}
+
+th {
+    padding:20px;
+}
+
+
+.buttonclass{
+    padding: 20px;
+    width: 740px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    border-style: none;
+    font-family: Montserrat;
+}
+
+.radioclass {
+    margin: 40px;
+    margin-bottom: 0px;
+}
+
+/*Clear field button*/
+#clearingbutton{
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 20px;
+    width: 700;
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: none;
+    font-family: Montserrat;
+    background-color: rgb(193, 219, 155);
+    color: black;
+    transition-property: border-radius, filter, opacity, background-color;
+    transition-duration: 230ms;
+}
+
+#clearingbutton:hover{
+    filter: drop-shadow(0 0 0.9rem rgb(235, 204, 119));
+    border-radius: 10px;
+    opacity: 0.9;
+    background-color: rgb(222, 240, 203);
+}
+
+#clearingbutton:active{
+    transform: scale(0.98);
+}
+
+/*media query*/
+
+/*Small devices (landscape phones, 576px and up)*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+.nameclass, .emailclass, .countryclass, .messageclass, .tableclass, .buttonclass{
+    max-width: 150px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+.nameclass, .emailclass, .countryclass, .messageclass, .tableclass, .buttonclass{
+    max-width: 200px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1355px){
+.nameclass, .emailclass, .countryclass, .messageclass, .tableclass, .buttonclass{
+    width: 400px;
+}
+}

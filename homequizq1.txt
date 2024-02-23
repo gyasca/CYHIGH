@@ -1,0 +1,63 @@
+<label for="Long"><input type="radio" id="Long" name="length"> Long</label>
+<label for="Short"><input type="radio" id="Short" name="length"> Short</label>
+
+let logans = 0
+
+function logans3() {
+    if (document.getElementById("respy").checked) {
+        rdbike += 1
+    }
+    if (document.getElementById("respn").checked) {
+        mtnbike += 1
+    }
+    loganscount += 1
+    document.getElementById("question").innerHTML=myQuestions[qncount];
+    document.getElementById("qnresponse").innerHTML=myQuestionsInput[qninputcount];
+    qncount += 1
+    qninputcount += 1
+}
+
+function logans() {
+    if(logans == 2) {
+        logans2();
+        document.getElementById("submit").style.visibility="hidden"
+        document.getElementById("submitqn").style.visibility="initial"
+    }
+
+    else if(logans == 1) {
+        logans3();
+    }
+    
+    
+}
+
+
+
+function logans2() {
+    if (document.getElementById("young").checked) {
+        kidbike += 10;
+    }
+
+    if (document.getElementById("tween").checked) {
+        fldbike += 10;
+    }
+
+    if (document.getElementById("old").checked) {
+        rdbike -= 1;
+        mtnbike +1;
+    }
+}
+//3-8: kidbike += 10, 8-15: fldbike += 10, 55+: rdbike - 1 mtnbike +1
+
+
+
+<div class="bikeform">
+        <h2>Find a type of bicycle that suits you!</h2>
+        
+        <div id="question"></div>
+        <div id="qnresponse"></div>
+        <button id="start" onclick="startquiz();">Start</button><br>
+        <button id="submit" style="visibility:hidden;" onclick="getans(), updateqns()">Proceed</button><br>
+        <button id="submitqn" style="visibility:hidden;" onclick="logans2();">Finish</button>
+        <div id="results"></div>
+      </div>

@@ -1,0 +1,68 @@
+.pagewrapper h1 {
+    font-size: 500%;
+    margin-bottom: 100px;
+}
+
+.links {
+    width: 60%;
+    margin: auto;
+}
+
+.pagewrapper a {
+    padding: 30px;
+    margin: auto;
+    background-color: rgba(231, 223, 184, 1);
+    border-radius: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    transition-property: border-radius, filter, opacity, padding;
+    transition-duration: 230ms;
+    
+}
+
+.pagewrapper a:hover {
+    background-color: rgba(228, 203, 79, 0.8);
+    filter: drop-shadow(0 0 0.9rem rgb(247, 216, 82));
+    border-radius: 30px;
+    opacity: 1;
+    padding: 40px;
+}
+
+.pagewrapper a:hover #phone {
+    content: "8223 8934";
+}
+
+/*Phone paragraph*/
+.pagewrapper p {
+    padding: 30px;
+    margin: auto;
+    background-color: rgba(231, 223, 184, 1);
+    border-radius: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    transition-property: border-radius, filter, opacity, padding;
+    transition-duration: 230ms;
+    
+}
+
+.pagewrapper p:hover {
+    background-color: rgba(228, 203, 79, 0.8);
+    filter: drop-shadow(0 0 0.9rem rgb(247, 216, 82));
+    border-radius: 30px;
+    opacity: 1;
+    padding: 40px;
+}
+
+
+hr {
+    border-style: none;
+    height: 50px;
+    color: transparent;
+}
+
+#backtotopall{
+    margin-top: 100px;
+    margin-bottom: 90px;
+}

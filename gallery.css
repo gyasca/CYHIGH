@@ -1,0 +1,117 @@
+.navul {
+    margin-top: 14px;
+    margin-bottom: 13px;
+    padding-left: 45px;
+    margin-left: 3px;
+}
+
+.navul li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    padding-left: 22px;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+.navul li {
+    margin: 5px;
+}
+
+
+.head1 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 10em;
+    color: beige;
+    text-shadow: black 0px 0px 5px;
+    font-family: 'Rubik Moonrocks', cursive;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.pagewrapper {
+    text-align: center;
+}
+
+.hr70 {
+    height:120px; 
+    border-style:none;
+}
+
+
+.subhead1 {
+    color: beige;
+    text-shadow: black 0px 0px 5px;
+    font-size: 2em;
+    margin-top: 5px;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+}
+
+.cycle {
+    width: 40%;
+    padding-left: 70px;
+}
+
+.information {
+    margin: auto;
+    color: black;
+    display: block;
+    align-items: center;
+    background-color: rgba(231, 223, 184, 0.8);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.information h1 {
+    font-weight: bold;
+}
+
+.infoboxwrapper {
+    display: block;
+    width: 60%;
+    margin: auto;
+    font-family: Montserrat;
+}
+
+.information p {
+    font-size: 1.5em;
+    padding: 0 40px;
+}
+
+.information span {
+    color: rgb(44, 110, 28);
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+/*Carousel styling*/
+.d-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 650px;
+    padding: 5px;
+    padding-top: 30px;
+}
+
+.carousel {
+    width: 965px;
+    max-height: 530px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.container-fluid{
+    width: 80%;
+}
+
+
+h2 {
+    color: white;
+    text-shadow: 3px 3px 20px #69d836,
+    -2px 1px 30px #f0ff99;
+}

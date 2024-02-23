@@ -1,0 +1,406 @@
+.head1 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 10em;
+    color: beige;
+    text-shadow: black 0px 0px 5px;
+    font-family: 'Rubik Moonrocks', cursive;
+    letter-spacing: 10px;
+}
+
+.hr70 {
+    height:120px; 
+    border-style:none;
+}
+
+.subhead1 {
+    color: beige;
+    text-shadow: black 0px 0px 5px;
+    font-size: 2em;
+    margin-top: 5px;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.infoboxwrapper {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+.information {
+    margin: auto;
+    color: black;
+    display: block;
+    align-items: center;
+    background-color: rgba(231, 223, 184, 0.8);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.information p {
+    font-size: 1.5em;
+    padding: 0 40px;
+}
+
+.s {
+    font-size: 0.5em;
+}
+
+.longer {
+    font-size: 3em;
+}
+
+.infop span {
+    color: rgb(44, 110, 28);
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+.InfToChoose {
+    height:50px;
+    border-style: none;
+}
+
+
+
+
+iframe {
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+h2 {width: 50px;}
+
+.maps {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 1500px;
+    margin-bottom: 80px;
+}
+
+.map p {
+    width: 215px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map a {
+    text-decoration: none;
+    color: white;
+}
+
+.spana{
+    color: rgb(56, 253, 82);
+}
+
+.spanb{
+    color: rgb(253, 217, 56);
+}
+.spanc{
+    color: rgb(238, 151, 101);
+}
+
+.routeinfowrap {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.routeinfowrap p{
+    width: 400px;
+    margin: auto;
+}
+
+.routeinfowrap img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+.routeinfo {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    background-color: rgba(231, 223, 184, 0.8);
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 50px;
+    color: black;
+}
+
+.desc{
+    padding-bottom: 30px;
+}
+
+hr.tableformsplit {
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 10px;
+    background-color: rgba(27, 63, 7, 0.9);
+    border-style: none;
+    border-radius: 5px;
+}
+
+hr.routeinfoTodyntable {
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 70px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.routeinforeadmore{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.4em;
+    background-color: rgb(193, 219, 155);
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    transition-property: border-radius, filter, opacity, background-color;
+    transition-duration: 230ms;
+}
+
+.routeinforeadmore:hover {
+    filter: drop-shadow(0 0 0.9rem rgb(210, 235, 119));
+    border-radius: 20px;
+    opacity: 0.8;
+    background-color: rgb(23, 94, 5);
+    color: white;
+}
+
+
+/*Form styling*/
+.labels {
+    margin-right: 20px;
+    
+}
+
+.weather {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    align-items: center;
+    background-color: rgba(45, 147, 179, 0.9);
+    border-radius: 15px;
+    padding: 40px;
+    border-collapse: collapse;
+    width: 1428px;
+    
+    border-radius: 15px;
+    margin-bottom:60px;
+}
+
+/*Dynamic table styling*/
+
+.formatinputtable{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    align-items: center;
+    background-color: rgba(165, 247, 133, 0.418);
+    border-radius: 15px;
+    padding: 40px;
+    border-collapse: collapse;
+    width: 20%;
+    border-radius: 15px;
+}
+
+.inputclass{
+    text-align: left;
+}
+
+.fields{
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    padding: 5px;
+    border-style: none;
+}
+
+.fields:focus{
+    outline: none;
+    background-color: rgb(206, 131, 46);
+    color: white;
+}
+
+.dyntable {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    align-items: center;
+    background-color: rgba(231, 223, 184, 0.8);
+    border-radius: 15px;
+    padding: 40px;
+    width: 75%;
+    font-family: Montserrat;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    align-items: center;
+    background-color: rgba(165, 247, 133, 0.418);
+    border-radius: 15px;
+    padding: 40px;
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.dyntable th {
+    padding: 20px;
+}
+
+.dyntable td {
+    padding: 15px;
+}
+
+.btndel {
+    background-color: rgba(233, 67, 67, 0.651);
+    border-style: none;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btndel:hover {
+    color: white;
+    background-color: red;
+}
+
+.btndel:active {
+    transform: scale(0.9);
+}
+
+
+/*For Bike page*/
+.bikeinfo {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    background-color: rgba(231, 223, 184, 0.8);
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 50px;
+    color: black;
+    font-size: 1.1em;
+}
+
+.backtohome{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.4em;
+    background-color: rgb(193, 219, 155);
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    transition-property: border-radius, filter, opacity, background-color;
+    transition-duration: 230ms;
+}
+
+.backtohome:hover{
+    filter: drop-shadow(0 0 0.9rem rgb(210, 235, 119));
+    border-radius: 20px;
+    opacity: 0.8;
+    background-color: rgb(23, 94, 5);
+    color: white;
+}
+
+/*Add information*/
+#addinfobutton{
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 24px;
+    border-style: none;
+    background-color: rgb(134, 177, 33);
+    color: rgb(247, 239, 132);
+    transition-property: border-radius, filter, background-color;
+    transition-duration: 230ms;
+}
+
+#addinfobutton:hover{
+    filter: drop-shadow(0 0 0.9rem rgb(235, 204, 119));
+    border-radius: 15px;
+    background-color: rgb(74, 133, 11);
+}
+
+#addinfobutton:active{
+    transform: scale(0.98);
+}
+
+
+
+@media screen and (max-width: 390px) {
+.table{
+   max-width: 30%;
+   padding: 0px;
+}
+
+.maps {
+    display: block;
+    margin-left: 45px;
+    width: 300px
+}
+
+.maps p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+td, th{
+    padding: 10px;
+}
+
+.routeinfo{
+    display: block;
+    width: 250%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.routeinfo .image{
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media (min-width: 576px) and (max-width: 1450px) {
+.table{
+    max-width: 30%;
+    padding: 0px;
+}
+
+.maps {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px
+}
+
+.maps p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+td{
+    padding: 1px;
+}
+}

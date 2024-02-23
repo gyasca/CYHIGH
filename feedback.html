@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Feedback - C Y High</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="body.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="feedback.css">
+    <script src="feedback.js"></script>
+  </head>
+  <body>
+    <div class="bimg">
+        <header>
+          <nav>
+            <ul class="navul">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="routes.html">Routes</a></li>
+              <li><a href="bikelist.html">Bikes</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li class="login"><a class="current" href="">Feedback</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <!--Main content--> <!--NOTE: Use Table for the form also. Additionally, instead of sending data to database, can try using MAilto to retrieve form feedback.-->
+        <div class="pagewrapper">
+          <h1>We appreciate your feedback!</h1>
+          <div class="formcontainer">
+            
+
+            <!--Form-->
+            <form action="https://formspree.io/f/meqnyekv" method="POST" name="FeedbackForm">
+              <div class="innerformdiv">
+              <div class="namediv"><input type="text" name="Name" placeholder="Your name" required class="nameclass"></div>
+              <div class="emaildiv"><input type="email" name="Email" placeholder="Email" required class="emailclass"></div>
+              <div class="countrydiv">
+                <select name="Country" class="countryclass">
+                  <option>Singapore</option>
+                  <option>Malaysia</option>
+                  <option>Indonesia</option>
+                </select>
+              </div>
+              <div class="messagediv"><textarea name="Message" placeholder="Message" required class="messageclass"></textarea></div>
+              <div class="tablediv">
+                <table class="tableclass">
+                  <caption>Rate our website from 1 to 5, 5 being the best.</caption>
+                  <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                  </tr>
+                  <tr>
+                    <td><input type="radio" name="Rating" value="1" required class="radioclass r1" id="rd_1"></td>
+                    <td><input type="radio" name="Rating" value="2" required class="radioclass r2"></td>
+                    <td><input type="radio" name="Rating" value="3" required class="radioclass r3"></td>
+                    <td><input type="radio" name="Rating" value="4" required class="radioclass r4"></td>
+                    <td><input type="radio" name="Rating" value="5" required class="radioclass r5" id="rd_2"></td>
+                  </tr>
+                </table>
+              </div>
+              <div class="buttondiv"><button type="submit" class="buttonclass">Send</button></div>
+              <form><button id="clearingbutton" onclick="clearfield()">Clear fields</button></form>
+            </div></form>
+        </div><!--End of formcontainer div-->
+        <form action="#"><button id="backtotopall">Back to top</button></form>
+      </div>
+
+
+
+        <!-- Footer -->
+  <div class="footer">
+    <div class="footerstuff">
+      <div class="col col1">
+        <h3>We're CYHigh</h3>
+        <a href="">Contact us</a>
+        <a href="index.html#mission">Our mission</a>
+        <a href="">Legal details</a>
+      </div>
+  
+      <div class="col col2">
+        <h3 class="marginchange">Newsletter</h3>
+        <form action="https://formspree.io/f/xdobqala" method="POST">
+          <input type="email" placeholder="Your Email Address" name="Email" required>
+          <br>
+          <button type="submit" onclick="alert('You are now subscribed to our newsletter.')">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+      
+      <div class="col col3">
+        <h1>C Y H I G H</h1>
+        <p class="col3desc">CYHIGH is an informative platform which aims to provide you with useful and helpful information to plan your next cycling trip!</p>
+        
+      </div>
+    </div>
+  
+    <div class="footerbottom">
+      <p>&copy; cyhigh.com | Designed by Gregory Achilles Chua 220502T IT2201</p>
+    </div>
+    </div>
+  </body>
+</html>

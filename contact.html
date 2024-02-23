@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact - C Y High</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="body.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="contact.css">
+
+    <script>
+      
+      function pnum(){
+        var timer = setTimeout(pnumreset, 6000);
+        document.getElementById("phone").innerText="8223 8934";
+      }
+
+      function pnumreset(){
+        document.getElementById("phone").innerText="Phone number";
+        clearInterval(timer);
+      }
+    </script>
+
+  </head>
+  <body>
+    <div class="bimg">
+        <header>
+          <nav>
+            <ul class="navul">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="routes.html">Routes</a></li>
+              <li><a href="bikelist.html">Bikes</a></li>
+              <li><a class = "current" href="">Contact</a></li>
+              <li class="login"><a href="feedback.html">Feedback</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <!--Main content-->
+        <div class="pagewrapper">
+            <h1>Contact Us!</h1>
+            <div class="links">
+                <div class="link1"><a target="_blank" href="mailto:gregorychua14@gmail.com">Email Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="phone" href="#" onclick="pnum(this)">Phone number</a></div>
+                
+                <hr style="border-style:none;">
+            </div>
+            <form action="index.html"><button id="backtotopall">Back to home</button></form>
+        </div>
+        
+
+        <!-- Footer -->
+  <div class="footer">
+    <div class="footerstuff">
+      <div class="col col1">
+        <h3>We're CYHigh</h3>
+        <a href="">Contact us</a>
+        <a href="index.html#mission">Our mission</a>
+        <a href="">Legal details</a>
+      </div>
+  
+      <div class="col col2">
+        <h3 class="marginchange">Newsletter</h3>
+        <form action="https://formspree.io/f/xdobqala" method="POST">
+          <input type="email" placeholder="Your Email Address" name="Email" required>
+          <br>
+          <button type="submit" onclick="alert('You are now subscribed to our newsletter.')">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+      
+      <div class="col col3">
+        <h1>C Y H I G H</h1>
+        <p class="col3desc">CYHIGH is an informative platform which aims to provide you with useful and helpful information to plan your next cycling trip!</p>
+      </div>
+    </div>
+  
+    <div class="footerbottom">
+      <p>&copy; cyhigh.com | Designed by Gregory Achilles Chua 220502T IT2201</p>
+    </div>
+    </div>
+
+    
+  </body>
+</html>

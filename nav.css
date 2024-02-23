@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body, html {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(228, 219, 182);
+    width: 100%;
+    padding: 6px;
+    position: fixed;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 10000;
+}
+
+.navul {
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navul li {
+    margin: 5px;
+}
+
+.navul a {
+    padding: 20px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: black;
+    transition-property: opacity;
+    transition-duration: 230ms;
+    font-size: 1.1em;
+}
+
+.navul a:hover {
+    opacity: 0.6;
+    
+}
+
+/* underline */
+.navul a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: -5px;
+    background: #000;
+    height: 3px;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  .navul a:hover:after,
+  .navul a:focus:after,
+  .navul a:active:after {
+    right: 0;
+  }
+
+  .navul a {
+    position: relative;
+    overflow: hidden;
+  }
+/* FIX THIS vvvvvvvvvvvvvv(Underline for current) (FIXED ALREADY*/
+.current::after {
+width: 100%;
+  }
+
+
+/*media query*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 0px) and (max-width: 767.98px){
+.navul {
+  display: block;
+}
+
+.navul a:after{
+  background: transparent;
+}
+
+.navul a{
+  padding: none;
+}
+
+.head1 {
+  font-size: 3em;
+}
+
+body{
+  margin-top: 80px
+};
+}
+
